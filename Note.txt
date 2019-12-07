@@ -1,0 +1,10 @@
+
+
+1-2. csv-parse 패키지로 csv 파싱하기
+
+        csv: 콤마와 줄바꿈으로 구분된 값들
+        
+        csv parser 패키지
+        lecture> npm i csv-parse
+
+        csv-parse의 parse 메서드가 문자열을 2차원 배열로 바꿔준다.
