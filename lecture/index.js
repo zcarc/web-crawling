@@ -11,6 +11,10 @@ const csv = fs.readFileSync('csv/data.csv');
 const records = parse(csv.toString('utf-8'));
 // console.log(records);
 
-records.forEach( (r, i) => {
+// records.forEach( (r, i) => {
+//     console.log(i, r[0], r[1]);
+// });
+
+records.map((r,i) => {
     console.log(i, r[0], r[1]);
 });
